@@ -14,7 +14,31 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@rx-cms/articles/data-access": [
+        "libs/articles/data-access/src/index.ts"
+      ],
+      "@rx-cms/articles/feature-articles": [
+        "libs/articles/feature-articles/src/index.ts"
+      ],
+      "@rx-cms/auth/data-access": ["libs/auth/data-access/src/index.ts"],
+      "@rx-cms/auth/feature-auth": ["libs/auth/feature-auth/src/index.ts"],
+      "@rx-cms/core/api-types": ["libs/core/api-types/src/index.ts"],
+      "@rx-cms/core/error-handler": ["libs/core/error-handler/src/index.ts"],
+      "@rx-cms/core/forms": ["libs/core/forms/src/index.ts"],
+      "@rx-cms/core/http-client": ["libs/core/http-client/src/index.ts"],
+      "@rx-cms/home": ["libs/home/src/index.ts"],
+      "@rx-cms/profile/data-access": ["libs/profile/data-access/src/index.ts"],
+      "@rx-cms/profile/feature-profile": [
+        "libs/profile/feature-profile/src/index.ts"
+      ],
+      "@rx-cms/settings/feature-settings": [
+        "libs/settings/feature-settings/src/index.ts"
+      ],
+      "@rx-cms/shared/logging": ["libs/shared/logging/src/index.ts"],
+      "@rx-cms/shared/utils": ["libs/shared/utils/src/index.ts"],
+      "@rx-cms/ui/components": ["libs/ui/components/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
