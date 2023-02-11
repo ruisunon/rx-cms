@@ -5,7 +5,7 @@ import { RegisterComponent } from './register/register.component';
 import { LogoutComponent } from './logout/logout.component';
 import { ForgetPasswordComponent } from './forget-password/forget-password.component';
 import { UpdatePasswordComponent } from './update-password/update-password.component';
-import { SettingsComponent } from './components/settings/settings.component';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   imports: [CommonModule],
